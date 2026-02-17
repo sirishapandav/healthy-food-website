@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HEALCART - Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f1e8;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #2f4f2f;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #2f4f2f;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #555;
+        }
+
+        .btn {
+            background-color: #2f4f2f;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #3d6b3d;
+        }
+
+        /* FEATURES */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 20px;
+            width: 28%;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px lightgray;
+        }
+
+        .feature-box h3 {
+            color: #2f4f2f;
+        }
+
+        /* BESTSELLERS */
+        .bestsellers {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .food-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .food-card {
+            background: white;
+            width: 28%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px lightgray;
+            padding-bottom: 20px;
+        }
+
+        .food-card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .food-card h3 {
+            color: #2f4f2f;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #2f4f2f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="navbar">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+        </div>
+
+        <div class="logo">HEALCART</div>
+
+        <div>
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>Fresh & Healthy Meals Delivered to Your Doorstep</h1>
+    <p>Protein Rich • Hygienic • Home Style</p>
+    <button class="btn">Order Now</button>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+
+    <div class="feature-box">
+        <h3>High Protein Meals</h3>
+        <p>Nutritious meals to fuel your fitness goals.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Farm-Fresh Ingredients</h3>
+        <p>Fresh and organic ingredients sourced locally.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Delivered with Care</h3>
+        <p>Hygienically packed and delivered hot & fresh.</p>
+    </div>
+
+</section>
+
+<!-- BESTSELLERS -->
+<section class="bestsellers">
+    <h2>Our Bestsellers</h2>
+
+    <div class="food-container">
+
+        <div class="food-card">
+            <img src="chicken.jpg" alt="Grilled Chicken">
+            <h3>Grilled Chicken</h3>
+            <p>40g Protein</p>
+            <p class="price">₹200</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <img src="paneer.jpg" alt="Paneer Bowl">
+            <h3>Paneer Bowl</h3>
+            <p>30g Protein</p>
+            <p class="price">₹180</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+        <div class="food-card">
+            <img src="prawn.jpg" alt="Prawn Sesame Salad">
+            <h3>Prawn Sesame Salad</h3>
+            <p>25g Protein</p>
+            <p class="price">₹160</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Swagruha | Eat Healthy, Live Happy
+</footer>
+
+</body>
+</html>
